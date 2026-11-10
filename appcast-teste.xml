@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Master Safe (teste)</title>
+    <!-- Lida pelo site mastercaption.com ("Meus aplicativos") para oferecer o .pkg de cada versão. O Master Safe se
+         atualiza pelas releases do GitHub, não por esta lista. Atualizada pelo Scripts/release.sh ao liberar. -->
+    <item>
+      <title>Master Safe Teste 0.3.15</title>
+      <pubDate>Sat, 07 Nov 2026 16:29:54 +0000</pubDate>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>0.3.15</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/raidamasceno2026/truecopy-releases/releases/download/teste-v0.3.15/MasterSafe-Teste-0.3.15.zip" length="3673619" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
