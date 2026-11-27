@@ -1,15 +1,23 @@
-<?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Master Safe</title>
-    <!-- Lida pelo site mastercaption.com ("Meus aplicativos") para oferecer o .pkg de cada versão. O Master Safe se atualiza pelas releases do GitHub, não por esta lista. -->
+    <!-- Lida pelo site mastercaption.com ("Meus aplicativos") para oferecer o .pkg de cada versão (o mesmo endereço do .zip, com .pkg: o .pkg vai anexado à versão no GitHub). O Master Safe se atualiza pelas releases do GitHub, não por esta lista. Atualizada pelo Scripts/release.sh ao liberar cada versão. -->
+    <item>
+      <title>Master Safe 0.3.21</title>
+      <pubDate>Fri, 27 Nov 2026 11:53:04 +0000</pubDate>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>0.3.21</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/raidamasceno2026/truecopy-releases/releases/download/v0.3.21/MasterSafe-0.3.21.zip" length="4603600" type="application/octet-stream"/>
+    </item>
     <item>
       <title>Master Safe 0.3.20</title>
       <pubDate>Wed, 25 Nov 2026 20:54:42 +0000</pubDate>
       <sparkle:version>47</sparkle:version>
       <sparkle:shortVersionString>0.3.20</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/raidamasceno2026/truecopy-releases/releases/download/v0.3.20/MasterSafe-0.3.20.zip" length="4309066" type="application/octet-stream" />
+      <enclosure url="https://github.com/raidamasceno2026/truecopy-releases/releases/download/v0.3.20/MasterSafe-0.3.20.zip" length="4309066" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
